@@ -91,10 +91,10 @@ a{
 }
 /* Demo Buttons */
 #codrops-demos{
-    position: fixed;
+	position: fixed;
 	z-index: 2000;
 	top: 50px;
-	right: 50px;
+	right: 94px;
 }
 #codrops-demos a{
 display: inline-block;
