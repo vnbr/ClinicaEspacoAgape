@@ -24,7 +24,7 @@ body {
 	background: #801d77;
 }
 #navigation {
-	margin-top: 20px;
+	margin-top: 7px;
 	width: 235px;
 	display:block;
 	list-style:none;
@@ -54,7 +54,7 @@ body {
 }
 .content h2{
 	font-size: 110px;
-	padding: 10px 0px 20px 0px;
+	padding: 10px 0px 5px 0px;
 	margin-top: 52px;
 	color: #fff;
 	color: rgba(255,255,255,0.9);
@@ -144,7 +144,12 @@ body {
 	border: solid #801D77;
 }
 #works {
-	padding: 15px 0px;
+	padding: 0 0 10px 0px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	height: 290px;
+	white-space: nowrap;
+	margin: 5px 0;
 }
 #works li{
 	display: inline;
