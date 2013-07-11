@@ -93,14 +93,14 @@ a{
 #codrops-demos{
 	position: fixed;
 	z-index: 2000;
-	top: 50px;
+	top: 20px;
 	right: 94px;
+	margin-left: 250px;
 }
 #codrops-demos a{
 display: inline-block;
 font-size: 12px;
 font-family: Tahoma, Arial, Helvetica, sans-serif;
-height: 24px;
 color: #801d77;
 line-height: 24px;
 text-align: center;
