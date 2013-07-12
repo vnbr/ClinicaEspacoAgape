@@ -1,9 +1,11 @@
-Clínica Espaço Ágage - janela do Face
-Comida Saudável, Nutrição - Face
-Balanceamento Muscular
-M.OV e Reiki
-Yoga e Pilates
-Massoterapia e Reflexoterapia
-Iridologia e Fitoterapia
-Acupuntura e Medicina Indiana
-PatchWork
+#home
+#clinica
+#atendimentos
+#comida-saudavel-nutricao
+#balanceamento-muscular
+#mov-reiki-taro
+#yoga-pilates-tai-chi-chuan
+#massoterapia-reflexoterapia
+#iridologia-fitoterapia
+#acupuntura-medicina-indiana
+#psicoterapia-patchwork

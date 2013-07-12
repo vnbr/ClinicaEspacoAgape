@@ -55,6 +55,32 @@
 
 	</head>
 	<body>
+	
+		<!-- JAVASCRIPT do Facebook --
+		<div id="fb-root"></div>
+		<script>
+		  window.fbAsyncInit = function() {
+			// init the FB JS SDK
+			FB.init({
+			  appId      : '343089299106315',                    // App ID from the app dashboard
+			  channelUrl : '//clinicaespacoagape.com.br/', 		 // Channel file for x-domain comms
+			  status     : true,                                 // Check Facebook Login status
+			  xfbml      : true                                  // Look for social plugins on the page
+			});
+
+			// Additional initialization code such as adding Event Listeners goes here
+		  };
+
+		  // Load the SDK asynchronously
+		  (function(d, s, id){
+			 var js, fjs = d.getElementsByTagName(s)[0];
+			 if (d.getElementById(id)) {return;}
+			 js = d.createElement(s); js.id = id;
+			 js.src = "//connect.facebook.net/en_US/all.js";
+			 fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
+		<!-- JAVASCRIPT do Facebook -->
 
 				
 		<!-- Home -->
@@ -62,10 +88,10 @@
 			<h2>Home</h2>
 			<ul id="works">
 					<li><img src="images/clinica-espaco-agape-foto2.jpg"></li>
-					<li><img src="images/clinica-espaco-agape-foto3.jpg"></li>
 					<li><img src="images/clinica-espaco-agape-foto0.jpg"></li>
-					<li><img src="images/clinica-espaco-agape-foto4.jpg"></li>
+					<li><img src="images/clinica-espaco-agape-foto3.jpg"></li>
 					<li><img src="images/clinica-espaco-agape-foto1.jpg"></li>
+					<li><img src="images/clinica-espaco-agape-foto4.jpg"></li>
 					<li><img src="images/clinica-espaco-agape-foto5.jpg"></li>
 			</ul>
 			<p>Yoga</p>
@@ -87,8 +113,28 @@
 		</div>
 		<!-- /Home -->
 		
-		<!-- comida saudavel -->
-		<div id="comida_saudavel" class="panel">
+		<!-- clinica -->
+		<div id="clinica" class="panel">
+			<div class="content">
+				<h2>Clínica</h2>
+				<p>texto</p>
+				<p class="footnote">facebook</p>
+			</div>
+		</div>
+		<!-- /clinica -->
+		
+		<!-- atendimentos -->
+		<div id="atendimentos" class="panel2">
+			<div class="content">
+				<h2>Atendimentos</h2>
+				<p>texto</p>
+				<p class="footnote">iframe</p>
+			</div>
+		</div>
+		<!-- /atendimentos -->
+		
+		<!-- comida saudavel e nutrição -->
+		<div id="comida-saudavel-nutricao" class="panel">
 			<div class="content">
 				<h2>Comida Saudável</h2>
 				<p>Trabalho com diversos tipos de culturas alimentares, passando do velho e bom chazinho que as nossas avós nos serviam aos conhecimentos mais consagrados da medicina tradicional chinesa, macrobiótica, ayurveda. Todas as visõs são abordadas com todo o respeito e valor que mercem.</p>
@@ -96,10 +142,10 @@
 				<p class="footnote"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fcomidasaudavelnoespacoagape%3Ffref%3Dts&amp;width=700&amp;height=590&amp;show_faces=true&amp;colorscheme=light&amp;stream=true&amp;border_color=B1E583&amp;header=true&amp;appId=206969809367092" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:700px; height:590px;" allowTransparency="true"></iframe></p>
 			</div>
 		</div>
-		<!-- /comida saudavel -->
-		
+		<!-- /comida saudavel e nutrição -->
+
 		<!-- bm -->
-		<div id="bm" class="panel2">
+		<div id="balanceamento-muscular" class="panel2">
 			<div class="content">
 				<h2>Balanceamento Muscular</h2>
 				<p>O método do Balanceamento Muscular consiste em detectar e corrigir diversos bloqueios densos e sutis através de testes musculares. O objetivo é liberar a energia vital para que ela possa voltar a fluir livre e constantemente por todas as partes do corpo, pelos meridianos; harmonizando a pessoa como um todo. Os bloqueios identificados são corrigidos e retestados.</p>
@@ -111,8 +157,8 @@
 		</div>
 		<!-- /bm -->
 		
-		<!-- MOV -->
-		<div id="MOV" class="panel3">
+		<!-- M.OV, Reiki e Taro -->
+		<div id="mov-reiki-taro" class="panel3">
 			<div class="content">
 				<h2>MOV</h2>
 				<p>O DNA é a ligação genética que nos conecta com todo o Universo.</p>
@@ -126,9 +172,56 @@
 				</ul>
 			</div>
 		</div>
-		<!-- /MOV -->	
+		<!-- /M.OV, Reiki e Taro  -->	
+		
+		<!-- yoga-pilates-tai-chi-chuan -->
+		<div id="yoga-pilates-tai-chi-chuan" class="panel2">
+			<div class="content">
+				<h2>Yoga, Pilates e Tai Chi Chuan</h2>
+				<p>texto</p>
+			</div>
+		</div>
+		<!-- /yoga-pilates-tai-chi-chuan -->
+		
+		<!-- massoterapia-reflexoterapia -->
+		<div id="massoterapia-reflexoterapia" class="panel2">
+			<div class="content">
+				<h2>Massoterapia Reflexoterapia</h2>
+				<p>texto</p>
+			</div>
+		</div>
+		<!-- /massoterapia-reflexoterapia -->
+		
+		<!-- iridologia-fitoterapia -->
+		<div id="iridologia-fitoterapia" class="panel2">
+			<div class="content">
+				<h2>Iridologia Fitoterapia</h2>
+				<p>texto</p>
+			</div>
+		</div>
+		<!-- /iridologia-fitoterapia -->
 
-		<!-- Cursos -->
+		<!-- acupuntura-medicina-indiana -->
+		<div id="acupuntura-medicina-indiana" class="panel2">
+			<div class="content">
+				<h2>Acupuntura e Medicina Indiana</h2>
+				<p>texto</p>
+			</div>
+		</div>
+		<!-- /acupuntura-medicina-indiana -->
+		
+		<!-- psicoterapia-patchwork -->
+		<div id="psicoterapia-patchwork" class="panel2">
+			<div class="content">
+				<h2>Psicoterapia e Patchwork</h2>
+				<p>texto</p>
+			</div>
+		</div>
+		<!-- /psicoterapia-patchwork -->
+		
+		
+		
+		<!-- Cursos --
 		<div id="cursos" class="panel">
 			<div class="content">
 				<h2>Cursos</h2>
@@ -143,7 +236,7 @@
 		</div>
 		<!-- /Cursos -->		
 			
-		<!-- Contact -->
+		<!-- Contact --
 		<div id="contact" class="panel">
 			<div class="content">
 				<h2>Contato</h2>
@@ -156,65 +249,76 @@
 		</div>
 		<!-- /Contact -->
 		
-			<!-- Menu de Navegação -->
-			<div id="header">
-				<h1>
-					<a href="#home">
-						<img src="images/clinica-espaco-agape-canoas-logo.png" width="235">
-					</a>
-				</h1>
-				<ul id="navigation">
-					<li>
-						<a  href="#comida_saudavel">
-							Comida Saudável
-						</a>
-					</li>
-					<li>
-						<a id="link-bm" href="#bm">
-							Balanceamento Muscular
-						</a>
-					</li>
-					<li>
-						<a id="link-MOV" href="#MOV">
-							MO.V
-						</a>
-					</li>
-					<li>
-						<a id="link-cursos" href="#cursos">Cursos</a>
-					</li>
-					<li>
-						<a id="link-contact" href="#contact">Contato</a>
-					</li>
-				</ul>
-			<!-- Menu de Naveção -->
-		
-		
-		
-		
-			<nav id="codrops-demos">
-				<a href="#home">Somos um espaço voltado ao equilíbrio através da promoção da saúde.</a>
-				<a href="#contact">Rua Brasil, 680, Canoas RS</a>
-				<a class="current-demo" href="#contact">+55 51 3466.5531</a>
-				<a href="http://blogcomidasaudavel.com.br" target="_blank">Blog</a>
-			</nav>	
-			
-			
-			<div id="googleplus">
-				<!-- Google + -->
-						<img itemprop="image" src="http://clinicaespacoagape.com.br/images/clinica-espaco-agape-logo.jpg" width="544" height="544" alt="MLPro Soluções EPM" title="Logo da MLPro Soluções EPM" style="visibility:hidden; display:none;" />
-						<div class="g-plusone" data-size="medium" data-annotation="none" data-expandto="top" data-href="http://clinicaespacoagape.com.br/">
-						</div>
-						<script type="text/javascript">
-						window.___gcfg = {lang: 'pt-BR'};
+		<!-- Menu de Navegação -->
+		<div id="header">
+			<h1>
+				<a href="#home">
+					<img src="images/clinica-espaco-agape-canoas-logo.png" width="235">
+				</a>
+			</h1>
 
-						(function() {
-						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-						po.src = 'https://apis.google.com/js/plusone.js';
-						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-						})();
-						</script>
-				<!-- /Google + -->
-			<div>
+			
+			<ul id="navigation">
+				<li>
+					<a id="link-clinica" href="#clinica">Atualizações, Dicas e Cursos</a>
+				</li>
+				<li>
+					<a id="link-atendimentos" href="#atendimentos">Atendimentos</a>
+				</li>
+				<li>
+					<a id="link-comida-saudavel-nutricao"  href="#comida-saudavel-nutricao">Comida Saudável e Nutrição</a>
+				</li>
+				<li>
+					<a id="link-balanceamento-muscular" href="#balanceamento-muscular">Balanceamento Muscular</a>
+				</li>
+				<li>
+					<a id="link-mov-reiki-taro" id="" href="#mov-reiki-taro">MO.V, Reiki e Tarô	</a>
+				</li>
+				<li>
+					<a id="link-yoga-pilates-tai-chi-chuan" href="#yoga-pilates-tai-chi-chuan">Yoga, Pilates e Tai-Chi-Chuan</a>
+				</li>
+				<li>
+					<a id="link-massoterapia-reflexoterapia" href="#massoterapia-reflexoterapia">Massoterapia Reflexoterapia</a>
+				</li>
+				<li>
+					<a id="link-iridologia-fitoterapia" href="#iridologia-fitoterapia">Iridologia e Fitoterapia</a>
+				</li>
+				<li>
+					<a id="link-acupuntura-medicina-indiana" href="#acupuntura-medicina-indiana">Acupuntura e Medicina Indiana</a>
+				</li>
+				<li>
+					<a id="link-psicoterapia-patchwork" href="#psicoterapia-patchwork">Psicoterapia e Patchwork</a>
+				</li>
+			</ul>
+		<!-- Menu de Naveção -->
+		
+		
+		
+		
+		<!-- Menu de Superior -->
+		<nav id="codrops-demos">
+			<a href="#home">Somos um espaço voltado ao equilíbrio através da promoção da saúde.</a>
+			<a href="#contact">Rua Brasil, 680, Canoas RS</a>
+			<a class="current-demo" href="#contact">+55 51 3466.5531</a>
+		</nav>	
+		<!-- /Menu de Superior -->
+		
+		<!-- Google + -->		
+			<div id="googleplus">
+					<img itemprop="image" src="http://clinicaespacoagape.com.br/images/clinica-espaco-agape-logo.jpg" width="544" height="544" alt="MLPro Soluções EPM" title="Logo da MLPro Soluções EPM" style="visibility:hidden; display:none;" />
+					<div class="g-plusone" data-size="medium" data-annotation="none" data-expandto="top" data-href="http://clinicaespacoagape.com.br/">
+					</div>
+					<script type="text/javascript">
+					window.___gcfg = {lang: 'pt-BR'};
+
+					(function() {
+					var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+					po.src = 'https://apis.google.com/js/plusone.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					})();
+					</script>
+				</div>
+		<!-- /Google + -->
 			
 			
 		</div>
